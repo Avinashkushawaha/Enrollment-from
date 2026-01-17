@@ -30,6 +30,10 @@ A comprehensive multi-step enrollment form built with React.js, React Hook Form,
   - Accessible (ARIA labels, keyboard navigation)
   - Smooth transitions
   - Loading states
+ 
+  ## 🖼️ Preview
+
+![Enrollment-page](ss.png)
 
 ## 📦 Installation
 ```bash
