@@ -1,16 +1,55 @@
-# React + Vite
+# Student Enrollment Form - Multi-Step Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive multi-step enrollment form built with React.js, React Hook Form, and Zod validation.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ **4-Step Enrollment Process**
+  - Step 1: Student Details
+  - Step 2: Academic Details
+  - Step 3: Address & Guardian
+  - Step 4: Review & Submit
 
-## React Compiler
+- ✅ **Form Validation**
+  - Zod schema validation
+  - React Hook Form integration
+  - Real-time inline error messages
+  - Step-specific validation rules
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ✅ **Smart Features**
+  - Auto-save to localStorage (2s debounce)
+  - PIN code auto-fill for state/city
+  - Dynamic subject catalog based on class selection
+  - Conditional scholarship fields
+  - Route guards (can't skip steps)
+  - Progress indicator
 
-## Expanding the ESLint configuration
+- ✅ **UI/UX**
+  - Mobile-responsive design
+  - Tailwind CSS styling
+  - Accessible (ARIA labels, keyboard navigation)
+  - Smooth transitions
+  - Loading states
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
+# Build for production
+npm run build
+```
+
+## 🛠️ Tech Stack
+
+- **React** 18.2.0
+- **React Router DOM** 6.22.0
+- **React Hook Form** 7.51.0
+- **Zod** 3.22.4
+- **Tailwind CSS** 3.4.1
+- **Lucide React** (icons)
+
+## 📁 Project Structure
